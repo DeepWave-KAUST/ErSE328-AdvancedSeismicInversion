@@ -1,18 +1,31 @@
 ![LOGO](https://github.com/DeepWave-Kaust/Project-Template/blob/main/asset/logo.png)
 
-Reproducible material for **XXX - Author M., Author M., Author C.**
+This repo contains materials for the course ErSE328 Advanced Seismic Inversion course taught by Professor Tariq Alkhalifah at King Abdullah University of Science(KAUST).
 
-[Click here](https://kaust.sharepoint.com/:f:/r/sites/M365_Deepwave_Documents/Shared%20Documents/Restricted%20Area/DWxxxxxxxx) to access the Project Report. Authentication to the _Restricted Area_ filespace is required.
 
 # Project structure
 This repository is organized as follows:
 
 * :open_file_folder: **package**: python library containing routines for ....;
 * :open_file_folder: **asset**: folder containing logo;
-* :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data
+* :open_file_folder: **data**: folder containing data 
 * :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
 * :open_file_folder: **scripts**: set of python scripts used to run multiple experiments ...
+  
+# Getting started
 
+Throughout the computational part of the course, we will mainly be utilizing the Deepwave Python library which you can access from their [repository](https://git@github.com:alaliaa/ErSE328-AdvancedSeismicInversion.git). To get yourself started, you can directly learn the Deepwave fundamentals from their [documentations](https://ausargeo.com/deepwave/).
+
+To install the environment, run the following command:
+```
+sh install_env.sh
+```
+It will take some time, but if, in the end, you see the word `Done!` on your terminal, you are ready to go. 
+
+Remember to always activate the environment by typing:
+```
+conda activate erse328asi
+```
 ## Notebooks
 The following notebooks are provided:
 

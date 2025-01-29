@@ -17,7 +17,9 @@ This repository is organized as follows:
 Throughout the computational part of the course, we will mainly be utilizing the Deepwave Python library which you can access from their [repository](https://github.com/ar4/deepwave?tab=readme-ov-file). To get yourself started, you can directly learn the Deepwave fundamentals from their [documentations](https://ausargeo.com/deepwave/)
 
 To install the environment, run the following command on a Linux system:
+
 **Step 1.1** Install Anaconda (if not already installed)
+
 you can find the Linux version of Anaconda in [Anaconda](https://repo.anaconda.com/archive/) Then you can install the suitable Anaconda by running (for example I use "https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh" )
 
 ```

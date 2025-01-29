@@ -1,4 +1,4 @@
-![LOGO](logo.png)
+![LOGO](logo_v2.png)
 
 This repo contains materials for the course ErSE328 Advanced Seismic Inversion course taught by Professor Tariq Alkhalifah at King Abdullah University of Science(KAUST).
 

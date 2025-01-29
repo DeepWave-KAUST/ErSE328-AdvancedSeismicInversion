@@ -17,20 +17,20 @@ This repository is organized as follows:
 Throughout the computational part of the course, we will mainly be utilizing the Deepwave Python library which you can access from their [repository](https://github.com/ar4/deepwave?tab=readme-ov-file). To get yourself started, you can directly learn the Deepwave fundamentals from their [documentations](https://ausargeo.com/deepwave/)
 
 To install the environment, run the following command on a Linux system:
-Step 1.1 Install Anaconda (if not already installed)
+**Step 1.1** Install Anaconda (if not already installed)
 you can find the Linux version of Anaconda in [Anaconda](https://repo.anaconda.com/archive/) Then you can install the suitable Anaconda by running (for example I use "https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh" )
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
-Step 1.2: Run the installer script:
+**Step 1.2**: Run the installer script:
 ```
 chmod +x Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
 ```
 sh Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
-Step 1.3: Initialize Anaconda 
+**Step 1.3**: Initialize Anaconda 
 ```
 source ~/.bashrc
 ```
@@ -40,13 +40,13 @@ conda -V
 ```
 to testify whether you have installed Anaconda successfully
 
-Step 2.1: To install the Deepwave environment, run the following command:
+**Step 2.1**: To install the Deepwave environment, run the following command:
 ```
 sh install_env.sh
 ```
 It will take some time, but if, in the end, you see the word Done! on your terminal, you are ready to go.
 
-Step 2.2: Remember to always activate the environment by typing:
+**Step 2.2**: Remember to always activate the environment by typing:
 ```
 conda activate erse328asi
 ```

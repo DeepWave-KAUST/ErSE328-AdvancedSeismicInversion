@@ -20,7 +20,7 @@ To successfully install the required environment, I highly recommend using a Lin
 
 **Step 1.1** Install Anaconda (if not already installed)
 
-you can find the Linux version of Anaconda in [Anaconda](https://repo.anaconda.com/archive/). Then you can install the suitable Anaconda package by running (for example I use "https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh" )
+you can find the Linux version of Anaconda in [Anaconda](https://repo.anaconda.com/archive/). Then you can install a suitable Anaconda package by running (for example I use "https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh" )
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh

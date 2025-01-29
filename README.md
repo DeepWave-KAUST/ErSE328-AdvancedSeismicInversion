@@ -6,17 +6,17 @@ This repo contains materials for the course ErSE328 Advanced Seismic Inversion c
 # Project structure
 This repository is organized as follows:
 
-* :open_file_folder: **package**: python library containing routines for ....;
-* :open_file_folder: **asset**: folder containing logo;
-* :open_file_folder: **data**: folder containing data 
-* :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
-* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments ...
+* :open_file_folder: **package**: **Ignore**
+* :open_file_folder: **asset**: **Ignore**
+* :open_file_folder: **data**: folder containing data for the assignments
+* :open_file_folder: **notebooks**: set of Jupyter Notebook-based assignments
+* :open_file_folder: **scripts**: **Ignore**
   
 # Getting started
 
-Throughout the computational part of the course, we will mainly be utilizing the Deepwave Python library which you can access from their [repository](https://github.com/ar4/deepwave?tab=readme-ov-file). To get yourself started, you can directly learn the Deepwave fundamentals from their [documentations](https://ausargeo.com/deepwave/)
+Throughout the computational part of the course, we will mainly be utilizing the Deepwave Python library which you can access from their [repository](https://github.com/ar4/deepwave?tab=readme-ov-file). To get yourself started, you can directly learn the Deepwave fundamentals from their [documentations](https://ausargeo.com/deepwave/).
 
-To install the environment, run the following command on a Linux system:
+To successfully install the required environment, I highly recommend using a Linux system and ensuring your machine has a GPU. (Ibex would be a great choice)
 
 **Step 1.1** Install Anaconda (if not already installed)
 

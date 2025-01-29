@@ -3,23 +3,18 @@
 # Installer for package
 # 
 # Run: ./install_env.sh
-# 
 
-echo 'Creating Package environment'
-
-# create conda env
-conda env create -f environment.yml
+# Create conda env
 source ~/anaconda3/etc/profile.d/conda.sh 2>/dev/null || source ~/miniconda3/etc/profile.d/conda.sh
-
-conda activate my_env
+conda env create -f environment.yml
+conda activate erse328asi
+conda env list
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 echo 'Created and activated environment:' $(which python)
 
-# Check torch OR tensorflow works as expected
-echo 'Checking torch version and running a command...'
+# Check cupy works as expected
+echo 'Checking torch version and GPU'
+conda activate erse328asi
 python -c 'import torch; print(torch.__version__);  print(torch.cuda.get_device_name(torch.cuda.current_device())); print(torch.ones(10).to("cuda:0"))'
-# TODO convert below line to work for tensorflow test
-# echo 'Checking tensorflow version and running a command...'
-# python -c 'import tensorflow; print(tensorflow.__version__);  print(tensorflow.cuda.get_device_name(tensorflow.cuda.current_device())); print(tensorflow.ones(10).to("cuda:0"))'
-
 echo 'Done!'
 

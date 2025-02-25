@@ -55,7 +55,7 @@ conda activate erse328asi
 ## Notebooks
 The following notebooks are provided:
 
-- :orange_book: ``notebooks/01_marmousi/notebook.ipynb``: First assignment(Deadline: March 6th)
+- :orange_book: ``notebooks/01_marmousi/notebook.ipynb``: First assignment (**Deadline: March 6th**)
 - :orange_book: ``X2.ipynb``: TODO
 
 

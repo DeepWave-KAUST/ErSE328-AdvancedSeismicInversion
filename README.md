@@ -52,6 +52,28 @@ It will take some time, but if, in the end, you see the word Done! on your termi
 ```
 conda activate erse328asi
 ```
+## Run a notebook on KAUST's Ibex
+
+First connect to Ibex using your KAUST credential.
+
+```
+ssh USERNAME@glogin.ibex.kaust.edu.sa
+```
+Then, clone this repository and install the `erse328asi` conda environment. If it is installed please go ahead with the following command. If not, please refer to this [documentation](https://docs.anaconda.com/free/miniconda/) to install conda. Run the following command to submit the slurm jupyter notebook request.
+
+```
+sbatch erse328asi_notebook.slurm
+
+```
+
+You can connect from your workstation to access the notebook with the instructions from the output slurm job. The file is in the format of `slurm-JOBID.out`.
+
+```
+ssh -L 6789:GPUID:6789 USERNAME@glogin.ibex.kaust.edu.sa
+```
+
+where the `JOBID` and `GPUID` are the unique identifiers from the slurm output job request. Then, access the `http://localhost:6789/` link from your workstation and fill in the credential from the `slurm-JOBID.out`.
+
 ## Notebooks
 The following notebooks are provided:
 

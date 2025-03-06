@@ -78,7 +78,7 @@ where the `JOBID` and `GPUID` are the unique identifiers from the slurm output j
 The following notebooks are provided:
 
 - :orange_book: ``notebooks/01_marmousi/notebook.ipynb``: First assignment (**Deadline: March 6th**)
-- :orange_book: ``X2.ipynb``: TODO
+- :orange_book: ``notebooks/02_multiscale/notebook.ipynb``: Second assignment (**Deadline: March 20th**)
 
 
 

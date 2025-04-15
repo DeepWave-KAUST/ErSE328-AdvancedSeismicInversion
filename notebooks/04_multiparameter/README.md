@@ -11,4 +11,4 @@ The objective is making sure you can properly run an FWI cycle with Deepwave. He
 
 # Outcomes
 
-Share the modified (hopefully well annotated) Jupyter notebook (or Python script with a separate PDF report file) to xiao.ma@kaust.edu.sa with `ErSE328-A34` as the subject.
+Share the modified (hopefully well annotated) Jupyter notebook (or Python script with a separate PDF report file) to xiao.ma@kaust.edu.sa with `ErSE328-A4` as the subject.
